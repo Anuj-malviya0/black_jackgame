@@ -1,7 +1,7 @@
 # black_jackgame
-black jack game ! want to play hand    
-
-
+black jack game ! want to play hand
+this game is still in profress and it will be completed soon 
+till then be patient 
 
 Rules
 Blackjack is played with one or more standard 52-card decks, with each denomination assigned a point value. The cards 2 through 10 are worth their face value. Kings, queens, and jacks are each worth 10, and aces may be used as either 1 or 11. The object for the player is to draw cards totaling closer to 21, without going over, than the dealer's cards.
