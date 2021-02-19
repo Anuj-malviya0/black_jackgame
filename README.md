@@ -1,6 +1,8 @@
 # black_jackgame
 black jack game ! want to play hand
-this game is still in profress and it will be completed soon 
+
+
+this game is still in progress and it will be completed soon 
 till then be patient 
 
 Rules
