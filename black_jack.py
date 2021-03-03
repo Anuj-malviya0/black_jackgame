@@ -94,12 +94,12 @@ def take_bet(chips):
                 print("Sorry, your bet can't exceed",chips.total)
             else:
                 break
-
+#defining a function for hit scenario
 def hit(deck,hand):
     
     hand.add_card(deck.deal())
     hand.adjust_for_ace()
-
+#defining a function for asking fo hit or stand
 def hit_or_stand(deck,hand):
     global playing  # to control an upcoming while loop
     
