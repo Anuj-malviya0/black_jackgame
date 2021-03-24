@@ -117,48 +117,43 @@ def hit_or_stand(deck,hand):
             print("Sorry, please try again.")
             continue
         break
-
+#function used for showing some cards 
 def show_some(player,dealer):
     print("\nDealer's Hand:")
     print(" <card hidden>")
     print('',dealer.cards[1])  
     print("\nPlayer's Hand:", *player.cards, sep='\n ')
-    
+#function used for showing All cards 
 def show_all(player,dealer):
     print("\nDealer's Hand:", *dealer.cards, sep='\n ')
     print("Dealer's Hand =",dealer.value)
     print("\nPlayer's Hand:", *player.cards, sep='\n ')
     print("Player's Hand =",player.value)
-
+#function for handling palyer bust scenario
 def player_busts(player,dealer,chips):
     print("Player busts!")
     chips.lose_bet()
-
+#function for handling palyer win scenario
 def player_wins(player,dealer,chips):
     print("Player wins!")
     chips.win_bet()
-
+#function for handling dealer bust scenario
 def dealer_busts(player,dealer,chips):
     print("Dealer busts!")
     chips.win_bet()
-    
+#function for handling dealer win scenario 
 def dealer_wins(player,dealer,chips):
     print("Dealer wins!")
     chips.lose_bet()
-    
+#function for handling tie    
 def push(player,dealer):
     print("Dealer and Player tie! It's a push.")
 
-
-
-
-
-
-
+#main  game starts here we  are arranging all functions and classes to make the game
 while True:
     # Print an opening statement
     print('Welcome to BlackJack! Get as close to 21 as you can without going over!\n\
-    Dealer hits until she reaches 17. Aces count as 1 or 11.')
+    Dealer hits until she/ reaches 17. Aces count as 1 or 11.')
     
     # Create & shuffle the deck, deal two cards to each player
     deck = Deck()
@@ -228,4 +223,4 @@ while True:
         continue
     else:
         pass
-    
+
